@@ -5,10 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
-    "start": "npm run vuild && cd server && node server.js",
+    "start": "npm run build && cd server && node server.js",
     "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
-    "install": "cd server && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client npm start"
   },
   "keywords": [],
@@ -23,3 +23,5 @@
     "nodemon": "^2.0.4"
   }
 }
+
+
