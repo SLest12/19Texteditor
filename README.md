@@ -1,6 +1,6 @@
 # -------Text Editor-------
 ## Description
- This app is a text editor that runs in the browser
+ This app is a text editor that runs in the browser 
 ## Deployed Application URL
 
 ## Screenshot
@@ -15,7 +15,7 @@
 ## Features
 undefined
 ## Languages & Dependencies
-express, express-handlebars, express-session, mysql, sequelize
+
 ## How to Use This Application:
 
 ## Contributors
